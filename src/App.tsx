@@ -9,7 +9,7 @@ import { NavBar } from './components/NavBar';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/dog-shelter">
       <div className="App flex flex-col h-screen">
         <header className="App-header">
           <NavBar />
